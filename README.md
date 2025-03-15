@@ -3,11 +3,16 @@
 ## **Overview**  
 This repository demonstrates how to perform **DML operations** (`INSERT`, `UPDATE`, `DELETE`, **partitioned writes**) on **Delta Lake** **without Spark**, using Python libraries **`deltalake`** and `duckdb`.  
 
-## **Why Use This Approach?**  
-✔️ **No Spark Cluster Required** – Ideal for lightweight Delta Lake operations.  
-✔️ **Supports Partitioning** – Efficient querying on partitioned data.  
-✔️ **Works with Both S3 & HDFS** – Flexible storage options.  
-✔️ **Time Travel Support** – Easily access previous versions of data.  
+## **Why Not Just Use Spark?**  
+Spark is great but requires a dedicated cluster.
+Sometimes, you just need a lightweight way to interact with Delta.
+This approach provides a simpler alternative while still supporting partitioned data storage for efficient querying.
+
+## **Key Benefits of This Approach**  
+✔️ No Spark Cluster Required – Lightweight & efficient.
+✔️ Supports Partitioning – Optimized for large datasets.
+✔️ Works with Both S3 & HDFS – Flexible storage options.
+✔️ Time Travel Support – Access previous data versions.
 
 ---
 
