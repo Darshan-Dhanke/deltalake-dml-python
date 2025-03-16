@@ -1,7 +1,7 @@
 # **Using Delta Lake with `deltalake` (No Spark Required!)**  
 
 ## **Overview**  
-This repository demonstrates how to perform **DML operations** (`INSERT`, `UPDATE`, `DELETE`, **partitioned writes**) on **Delta Lake** **without Spark**, using Python libraries **`deltalake`** and `duckdb`.  
+This repository demonstrates how to perform **DML operations** (`INSERT`, `UPDATE`, `DELETE`, **partitioned writes**) on **Delta Lake** **without Spark**, using Python libraries **`deltalake`**.  
 
 ## **Why Not Just Use Spark?**  
 Spark is great but requires a dedicated cluster.
